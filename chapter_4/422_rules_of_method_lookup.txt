@@ -1,0 +1,7 @@
+an object looks for method definition:
+
+- in its class
+- in modules mixed into the class, in reverse order of inclusion
+- the class's superclass
+- modules mixed into the superclass
+- likewise up to Object, Kernel and BasicObject
