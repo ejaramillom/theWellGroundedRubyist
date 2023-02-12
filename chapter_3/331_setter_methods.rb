@@ -10,9 +10,7 @@ class Ticket
   end
 
   attr_reader :price
-
   attr_reader :venue
-
   attr_reader :date
 end
 
