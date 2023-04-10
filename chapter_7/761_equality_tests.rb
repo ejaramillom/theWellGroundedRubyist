@@ -18,7 +18,8 @@ a != b
 a.eql?(a)
 => true
 
-a.eql?(b)
+a.eql?(b) # eql? does not do type conversion before comparing, 
+# for example 5.eql? 5.0 -> false
 => false
 
 a.equal?(a) # because they have the same identity
