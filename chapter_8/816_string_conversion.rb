@@ -28,4 +28,4 @@
 # => 1.2345
 
 "just some words".to_i
-# => 0
+# 0
