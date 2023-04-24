@@ -61,12 +61,12 @@ end
 
 thing = Object.new
 
-def obj.to_ary
+def thing.to_ary
   [1, 2, 3]
 end 
 # => :to_ary
 
-Array.try_convert(obj)
+p Array.try_convert(thing)
 # => [1, 2, 3]
 
 
