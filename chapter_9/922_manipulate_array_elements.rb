@@ -18,5 +18,3 @@ thing = %w(the dog ate the cat)
 
 p thing.values_at(0, 2)
 # => ['the', 'ate']
-
-
