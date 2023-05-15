@@ -14,7 +14,7 @@ scale.map {|note| note.upcase }
 # because it does not mix the enumerable module 
 
 enum = scale.enum_for(:play) # this gives enumerable powers to the object in that class
-p enum.map {|note| note.upcase }
+p enum.map { |note| note.upcase }
 # => ["C", "C#", "D", "D#", "E", "F", "F#", "G", "A", "A#", "B"]
-p enum.select {|note| note.include?('f') }
+p enum.select { |note| note.include?('f') }
 # => ["f", "f#"]
