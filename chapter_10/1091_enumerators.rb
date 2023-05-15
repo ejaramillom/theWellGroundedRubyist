@@ -1,4 +1,5 @@
 # enumerator is an object, not a method
+# an enumerator is an enumerable object
 
 e = Enumerator.new do |y|
   y << 1
