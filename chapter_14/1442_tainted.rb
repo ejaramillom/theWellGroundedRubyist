@@ -7,4 +7,4 @@ any user input here
 x.tainted?
 # => true
 
-# Ruby also maintains a global variable called $SAFE —set to 0 by default. Setting $SAFE to 1 will prevent Ruby from running potentially unsafe methods like eval on tainted data by raising a SecurityError .
+# Ruby also maintains a global variable called $SAFE —set to 0 by default. Setting $SAFE to 1 will prevent Ruby from running potentially unsafe methods like eval on tainted data by raising a SecurityError.
