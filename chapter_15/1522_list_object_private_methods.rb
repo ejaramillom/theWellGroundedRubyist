@@ -24,4 +24,3 @@ p david.private_methods.sort.grep(/normal/)
 
 ruby -e 'o = Object.new; p o.private_methods.size'
 # => 74
-
